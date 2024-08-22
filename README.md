@@ -87,3 +87,33 @@
     3. Fácil mantenimiento
     4. Beneficios de la SEO
    
+5. Etiquetas de texto (Headings)
+
+    1. h1. Es el título principal de toda la página, se recomienda que solo exista un h1 en toda la página.
+    2. h2. Es el título secundario 
+    3. h3. Es el título terciario
+    4. h4. Es el título cuternario
+    5. h5. Es el título quinario
+    6. h6. Es el título sextenario
+
+6. Parrafos
+
+    1. h1. Es el título principal de toda la página, se recomienda que solo exista un h1 en toda la página.
+    2. h2. Es el título secundario 
+    3. h3. Es el título terciario
+    4. h4. Es el título cuternario
+    5. h5. Es el título quinario
+    6. h6. Es el título sextenario
+
+7. Formateo de texto: ver archivo index_5.html
+
+8. Citas y referencias : ver archivo index_6.html
+
+9. Links:  ver archivo index_7.html
+
+10. Imágenes:  ver archivo index_8.html
+
+
+
+    
+   
