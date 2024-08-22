@@ -41,4 +41,43 @@
         </ul>
     </nav>    
     ```
+
+    3. Sectioin: La etiqueta section nos permite definir una sección de contenido, si quisieramos crear un breve apartado sobre un producto o servicio.
+
+    ```html
+    <section>
+        <h2>Sección importante</h2>
+        <p>Contenido relevante</p>            
+    </section>    
+    ```
+
+    3. Article: La etiqueta article nos permite definir una pieza de contenido independiente. Es decir, contenido que podría funcionar por si solo sin necesidad de todo lo que rodea: un producto, un servicio, una noticia, etcetera. 
+
+    Generalmente los vamos a ver dentro de section pero no es obligatorio. 
+
+    ```html
+    <article>
+        <h2>Título del artículo</h2>
+        <p>Contenido del artículo</p>            
+    </article>    
+    ```
+
+     3. Footer: Nos sirve para generar el pie de página principal del documento o el pie de página de una sección de contenido. Tradicionalmente, aquí van cosas como los derechos reservados y algunos enlaces adicionales de la web.
+
+    Generalmente los vamos a ver dentro de section pero no es obligatorio. 
+
+    ```html
+    <footer>
+       
+        <p>Todos los derechos reservados</p>   
+        <nav>
+            <ul>
+                <li><a href="#">Términos y condiciones</a></a></li>
+                <li><a href="#">Mapa del sitio</a></li>
+                <li><a href="#">Información legal</a></li>
+                <li><a href="#">Contacto</a></li>     
+            </ul>
+        </nav>             
+    </footer>    
+    ```
    
