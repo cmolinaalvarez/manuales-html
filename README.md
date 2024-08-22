@@ -80,4 +80,10 @@
         </nav>             
     </footer>    
     ```
+4. Ventajas de las etiquetas semánticas: Las etiquetas semánticas en HTML ofrecen diversas ventajas que contribuyen a una mejor estructuración y comprensión del contenido de una página web.
+
+    1. Claridad en el significado
+    2. Mejora de la accesibilidad
+    3. Fácil mantenimiento
+    4. Beneficios de la SEO
    
