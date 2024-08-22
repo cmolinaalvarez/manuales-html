@@ -12,20 +12,33 @@
 
     1. Header: Sirve para generar la cabecera del documento, o incluso para generar la cabecera de una sesión de contenido.
 
-        1. Cabecera de nuestra web
+    Cabecera de nuestra web
 
-        ```html
-        <header>
-            <h1>Título de la página</h1>
+    ```html
+    <header>
+        <h1>Título de la página</h1>
 
-            <p>Subtítulo o descripción breve</p>
+        <p>Subtítulo o descripción breve</p>
 
-            <!-- Logotipo -->
-            <!-- Barra de navegación -->
-            <!-- Barra de búsqueda -->
-            <!-- Enlaces a redes sociales -->        
+        <!-- Logotipo -->
+        <!-- Barra de navegación -->
+        <!-- Barra de búsqueda -->
+        <!-- Enlaces a redes sociales -->        
 
-        </header>    
-        ```
 
+    </header>    
+    ```
+
+    2. Nav: Barra de navegación que sirve para generar una barra de navegación principal o una navegación alternativa.
+
+    ```html
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Quienes somos?</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>     
+        </ul>
+    </nav>    
+    ```
    
