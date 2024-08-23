@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Proyecto HTML</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+<body>
+    <h1>Listas en HTML</h1>    
+    
+    <h2>Listas desordenadas</h2>
+
+    <h3>Comidas que me gustan</h3>
+
+    <ul><!--Unordered list-->
+        <li>Tacos mexicanos</li> <!--Elemento de la lista-->
+        <li>Asado argentino</li> <!--Elemento de la lista-->
+        <li>Arepas colombianas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+    </ul>
+
+    <ul type="disc"><!--Unordered list-->
+        <li>Tacos mexicanos</li> <!--Elemento de la lista-->
+        <li>Asado argentino</li> <!--Elemento de la lista-->
+        <li>Arepas colombianas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+    </ul>
+
+    <ul type="circle"><!--Unordered list-->
+        <li>Tacos mexicanos</li> <!--Elemento de la lista-->
+        <li>Asado argentino</li> <!--Elemento de la lista-->
+        <li>Arepas colombianas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+    </ul>
+
+    <ul type="square"><!--Unordered list-->
+        <li>Tacos mexicanos</li> <!--Elemento de la lista-->
+        <li>Asado argentino</li> <!--Elemento de la lista-->
+        <li>Arepas colombianas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+    </ul>
+
+    <ul type="none"><!--Unordered list-->
+        <li>Tacos mexicanos</li> <!--Elemento de la lista-->
+        <li>Asado argentino</li> <!--Elemento de la lista-->
+        <li>Arepas colombianas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+    </ul>    
+
+    <h2>Listas ordenadas</h2>
+
+    <h3>Actividad durante el día</h3>
+
+    <ol><!--Ordered list-->
+        <li>Levantarme</li> <!--Elemento de la lista-->
+        <li>Bañarme</li> <!--Elemento de la lista-->
+        <li>Desayunar</li> <!--Elemento de la lista-->
+        <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+        <li>Salir al trabajo</li> <!--Elemento de la lista-->
+    </ol>
+
+    <ol type="1"><!--Ordered list type 1-->
+        <li>Levantarme</li> <!--Elemento de la lista-->
+        <li>Bañarme</li> <!--Elemento de la lista-->
+        <li>Desayunar</li> <!--Elemento de la lista-->
+        <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+        <li>Salir al trabajo</li> <!--Elemento de la lista-->
+    </ol>
+
+    <ol type="A"><!--Ordered list type A-->
+        <li>Levantarme</li> <!--Elemento de la lista-->
+        <li>Bañarme</li> <!--Elemento de la lista-->
+        <li>Desayunar</li> <!--Elemento de la lista-->
+        <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+        <li>Salir al trabajo</li> <!--Elemento de la lista-->
+    </ol>
+
+    <ol type="I"><!--Ordered list type I-->
+        <li>Levantarme</li> <!--Elemento de la lista-->
+        <li>Bañarme</li> <!--Elemento de la lista-->
+        <li>Desayunar</li> <!--Elemento de la lista-->
+        <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+        <li>Salir al trabajo</li> <!--Elemento de la lista-->
+    </ol>
+
+    <ol start="25"><!--Ordered list type I-->
+        <li>Levantarme</li> <!--Elemento de la lista-->
+        <li>Bañarme</li> <!--Elemento de la lista-->
+        <li>Desayunar</li> <!--Elemento de la lista-->
+        <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+        <li>Salir al trabajo</li> <!--Elemento de la lista-->
+    </ol>
+
+    <h2>Listas anidadas</h2>
+
+    <ul type="square"><!--Unordered list-->
+        <li>Asado argentino</li> <!--Elemento de la lista-->
+        <li> Lista de tareas del día:
+            <ol type="A"><!--Ordered list type A-->
+                <li>Levantarme</li> <!--Elemento de la lista-->
+                <li>Bañarme</li> <!--Elemento de la lista-->
+                <li>Desayunar</li> <!--Elemento de la lista-->
+                <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+                <li>Salir al trabajo</li> <!--Elemento de la lista-->
+            </ol>
+        </li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+        <li> Lista de tareas del día:
+            <ol type="A"><!--Ordered list type A-->
+                <li>Levantarme</li> <!--Elemento de la lista-->
+                <li>Bañarme</li> <!--Elemento de la lista-->
+                <li>Desayunar</li> <!--Elemento de la lista-->
+                <li>Sepillarme los diéntes</li> <!--Elemento de la lista-->
+                <li>Salir al trabajo</li> <!--Elemento de la lista-->
+            </ol>
+        </li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+        <li>Arepas venezolanas</li> <!--Elemento de la lista-->
+    </ul>
+
+
+
+
+   
+</body>
+</html>

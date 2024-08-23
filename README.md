@@ -113,6 +113,25 @@
 
 10. Imágenes:  ver archivo index_8.html
 
+11. Favicon:  ver archivo index_9.html
+
+12. Tablas:  ver archivo index_10.html
+
+13. Listas:  ver archivo index_11.html
+
+14. Listas (más listas):  ver archivo index_12.html
+
+15. Elementos de bloque y elementos de línea: ver archivo index_13.html
+
+16. Div y Span: ver archivo index_14.html
+
+17. Formularios: Permiten recopilar información interactivamente de los usuarios en una página web. Pueden contener diversos elementos como; campos de texto, casillas de verificación, botones de radio, menús desplegables y más.
+
+    1. Estructura: <form> encierra los elementos.
+    2. Entrada de datos: <input>, <select>, <textarea> para recopilar datos.
+    3. Envío: Atributo method (GET, POST) define como se envían los datos al servidor.
+    4. Destino: Atributo action en <form> indica la URL para procesar datos.
+    5. Interactividad: Botones <input type="submit"> para enviar.
 
 
     

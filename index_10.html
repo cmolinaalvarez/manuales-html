@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Proyecto HTML</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+<body>
+    <h1>Tablas HTML</h1>    
+
+    <table> <!-- Etiqueta de tabla -->
+        <colgroup>
+            <col span="1" style="background-color: rgb(139, 181, 218);">
+        </colgroup>
+        <tr> <!-- Etiqueta de fila (table row) -->
+            <th>Alumno</th> <!-- Etiqueta de column header (table header)-->
+            <th colspan="2">Nombre - Apellido</th> <!--Colspadn nos ayudará a extender horizontalmente-->
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <th>1</td> <!-- Etiqueta de column (table data)-->
+            <td>Carlos Alberto</td>
+            <td>Molina Alvarez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>1</td> <!-- Etiqueta de column (table data)-->
+            <td>Carlos Alberto</td>
+            <td>Molina Alvarez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>1</td> <!-- Etiqueta de column (table data)-->
+            <td>Carlos Alberto</td>
+            <td>Molina Alvarez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>1</td> <!-- Etiqueta de column (table data)-->
+            <td>Carlos Alberto</td>
+            <td rowspan="2">Molina Alvarez</td> <!--Con rowspan podemos hacer una extensión vertical-->
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>1</td> <!-- Etiqueta de column (table data)-->
+            <td>Carlos Alberto</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>1</td> <!-- Etiqueta de column (table data)-->
+            <td>Carlos Alberto</td>
+            <td>Molina Alvarez</td>
+            <td>9</td>
+        </tr>   
+</table>
+</body>
+</html>
