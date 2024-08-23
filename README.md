@@ -155,6 +155,13 @@
     ```html
     <button type="submit">Enviar</button>
     ```
+    10. Métodos de envío: 
+
+        1. Método Get: 
+            1. Los datos del formulario se adjuntan a la URL como parámetros
+            2. Es visible en la barra de direcciones del navegador
+            3. Tiene limitaciones en la cantidad de datos que se pueden enviar
+            4. Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL
 
 
     
