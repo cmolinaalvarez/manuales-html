@@ -171,9 +171,16 @@
             3. Puede manejar cantidades más grandes de datos.
             4. Es más seguro para información sensible, ya que los datos no son visibles en la URL.
         
-        >[!NOTE]
-        
-        >En resumen, el método get se utiliza generalmente para solicitudes de búsqueda o solicitudes donde la información no es sensible y puede ser visible en la URL. >El método POST se utiliza para enviar datos sensibles o cuando la cantidad de datos es grande y no se desea mostrar en la URL.
+        Resumen:
+
+        En resumen, el método get se utiliza generalmente para solicitudes de búsqueda o solicitudes donde la información no es sensible y puede ser visible en la URL. El método POST se utiliza para enviar datos sensibles o cuando la cantidad de datos es grande y no se desea mostrar en la URL.
+
+    11. RadioButton, Checkbox, Botón Submit y Textarea:  ver archivo index_15.html.
+
+    12. Email, password y reset: ver archivo index_16.html.
+
+    13. Otros inputs disponibles: acá vamos desde cero en el video
+
 
 
     
