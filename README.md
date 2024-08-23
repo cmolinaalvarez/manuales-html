@@ -158,10 +158,22 @@
     10. Métodos de envío: 
 
         1. Método Get: 
-            1. Los datos del formulario se adjuntan a la URL como parámetros
-            2. Es visible en la barra de direcciones del navegador
-            3. Tiene limitaciones en la cantidad de datos que se pueden enviar
-            4. Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL
+
+            1. Los datos del formulario se adjuntan a la URL como parámetros.
+            2. Es visible en la barra de direcciones del navegador.
+            3. Tiene limitaciones en la cantidad de datos que se pueden enviar.
+            4. Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.
+
+        2. Método Post: 
+               
+            1. Los datos del formulario se envían el en cuerpo de la solicitud, no en la URL.
+            2. No es visible en la barra de direcciones del navegador.
+            3. Puede manejar cantidades más grandes de datos.
+            4. Es más seguro para información sensible, ya que los datos no son visibles en la URL.
+        
+        >[!NOTE]
+        
+        >En resumen, el método get se utiliza generalmente para solicitudes de búsqueda o solicitudes donde la información no es sensible y puede ser visible en la URL. >El método POST se utiliza para enviar datos sensibles o cuando la cantidad de datos es grande y no se desea mostrar en la URL.
 
 
     
