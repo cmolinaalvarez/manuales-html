@@ -138,9 +138,28 @@
     <input type="password" name="contraseña" placeholder="Contraseña>
     <input type="radio" name="genero" value="masculino"> Masculino
     <input type="checkbox" name="suscripcion" checked> Suscribase al boletín
-
-
     ```
+    7. Que son las etiquetas textarea: Se utilizan para crear áreas de texto de varias líneas en un formulario. A diferencia de la etiqueta <input type="text">, que crea una caja de texto de una sola línea. <textarea> permite a los usuarios ingresar y editar texto en un espacio más grande.
+    ```html
+    <textarea name="comentario" rows="4" cols="50"></textarea>
+    ```
+    8. Etiquetas select y option: Se utilizan para crear listas desplegables (también conocidas como menús desplegables o selectores) en formularios web. Estas etiquetas permiten a los usuarios seleccionar una opción de una lista predefinida.
+    ```html
+    <select name="ciudad">
+        <option value="ny">Nueva York</option>
+        <option value="la">Los Ángeles</option>
+        <option value="chi">Chicago</option>
+    </select>
+    ```
+    9. Botón submit: Es el element clave para enviar un formulario. Se puede usar la etiqueta <button> o la etiqueta <input> con el atributo type submit.
+    ```html
+    <button type="submit">Enviar</button>
+    ```
+
+
+    
+
+
 
 
 
