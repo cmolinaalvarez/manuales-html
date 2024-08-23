@@ -132,6 +132,18 @@
     3. Envío: Atributo method (GET, POST) define como se envían los datos al servidor.
     4. Destino: Atributo action en <form> indica la URL para procesar datos.
     5. Interactividad: Botones <input type="submit"> para enviar.
+    6. Que son las etiquetas input: Se utilizan para crear campos de entrada; como cajas de texto, contraseñas, botones de radio, casillas de verificación, etc. 
+    ```html
+    <input type="text" name="nombre" placeholder="Nombre completo">
+    <input type="password" name="contraseña" placeholder="Contraseña>
+    <input type="radio" name="genero" value="masculino"> Masculino
+    <input type="checkbox" name="suscripcion" checked> Suscribase al boletín
+
+
+    ```
+
+
+
 
 
     
