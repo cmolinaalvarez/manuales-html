@@ -179,8 +179,25 @@
 
     12. Email, password y reset: ver archivo index_16.html.
 
-    13. Otros inputs disponibles: acá vamos desde cero en el video
+    13. Otros inputs disponibles: input color ver archivo index_17.html.
 
+    14. Otros inputs disponibles: input date ver archivo index_18.html.
+
+    15. Otros inputs disponibles: input time ver archivo index_19.html.
+
+    16. Otros inputs disponibles: input number ver archivo index_20.html.
+
+    17. Otros inputs disponibles: input renge ver archivo index_21.html.
+
+    18. Otros inputs disponibles: input file para selecciionar múltiples archivos ver archivo index_22.html.
+
+    19. Otros inputs disponibles: input  code para expresiones regulares ver archivo index_23.html.
+
+    20. Otros inputs disponibles: placeholder, required, autofocus y autocomplete ver archivo index_24.html.
+
+    21. Multimedia Video: ver archivo index_25.html.
+
+    22. Multimedia Audio: ver archivo index_26.html.
 
 
     
